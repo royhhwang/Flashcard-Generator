@@ -1,0 +1,25 @@
+{
+  "name": "flashcard-generator",
+  "version": "1.0.0",
+  "description": "flashcard gen",
+  "main": "BasicCard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royhhwang/Flashcard-Generator.git"
+  },
+  "keywords": [
+    "flashcards"
+  ],
+  "author": "Royh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/royhhwang/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/royhhwang/Flashcard-Generator#readme",
+  "dependencies": {
+    "inquirer": "^4.0.0"
+  }
+}
