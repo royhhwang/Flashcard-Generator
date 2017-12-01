@@ -46,8 +46,20 @@ function nextQuestion() {
             }
 
         }).then(function () {
-            nextQuestion();
+            questionLoop();
         })
 };
 
+// function questionLoop(questions, keys) {
+//     return Object.keys(questions)
+//         .filter(function (key) {
+//             return keys.indexOf(key) >= 0;
+//         })
+//         .reduce(function (acc, key) {
+//             acc[key] = object[key];
+//             return acc;
+//         }, {});
+// }
+
 gameStart();
+
